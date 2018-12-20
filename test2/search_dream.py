@@ -34,7 +34,7 @@ def searchDream(text):
     # longString = ''
     # for i in result_list:
     #     longString = longString + i + '\n'
-
+    driver.close()
     return result_list
 # print(searchDream('바다')) #실험용 코드
 

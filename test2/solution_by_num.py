@@ -18,6 +18,8 @@ def solution_by_num(num, hrefs): #리턴값은 꿈해몽 전문
             solution = i.get_text().strip()
             count +=1
     # print(solution)
+
+    driver.close()
     return solution
 
 # print(searchDream('바다'))
