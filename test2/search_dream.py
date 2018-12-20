@@ -29,17 +29,11 @@ def searchDream(text):
     for n in soup.find_all('td', class_="num"):
         title_nums.append(int(n.get_text().strip()))
 
-    num_to_title = dict(zip(title_nums, titles))
+    # num_to_title = dict(zip(title_nums, titles))
     num_to_href = dict(zip(title_nums, href_list))
-    # print('titles :', titles)
-    # print('nums :', title_nums)
-    # print('href :', href_list)
-    # print(num_to_title)
-    # print(num_to_href)
+
     return num_to_href
 # searchDream('바다')
 
 # 꿈 - 입력대기 - 서치드림(입력값) -
-
-#num
 
