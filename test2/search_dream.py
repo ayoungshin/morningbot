@@ -26,7 +26,6 @@ def searchDream(text):
     for n in soup.find_all('td', class_="num"):
         title_nums.append(int(n.get_text().strip()))
     result_list = []
-    print('{}{}'.format(href_list[0],titles[0]))
     for i in range(len(titles)):
         result_list.append('<{}|{}>'.format(href_list[i], titles[i]))
     # num_to_title = dict(zip(title_nums, titles))
