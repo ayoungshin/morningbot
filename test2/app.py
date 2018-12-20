@@ -16,10 +16,7 @@ isList = False
 
 app = Flask(__name__)
 
-slack_token = "xoxb-502761537154-507692267477-g8OydTG0lbyNv1tKs5A8MOjF"
-slack_client_id = "502761537154.506751972416"
-slack_client_secret = "502761537154.506751972416"
-slack_verification = "kov20Lf5pwBxadSJFoRGhZZ6"
+
 sc = SlackClient(slack_token)
 
 
