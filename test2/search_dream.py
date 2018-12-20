@@ -1,9 +1,6 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
-print('연습용 실행')
-# 크롬 드라이버 설정
-
 def searchDream(text):
     driver = webdriver.Chrome(r'C:\Users\student\Desktop\chromedriver_win32\chromedriver.exe')
     # 웹사이트 열기
