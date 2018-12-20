@@ -27,10 +27,10 @@ def searchDream(text):
         title_nums.append(int(n.get_text().strip()))
 
     # num_to_title = dict(zip(title_nums, titles))
-    num_to_href = dict(zip(title_nums, href_list))
+    num_to_href = dict(zip(href_list, titles))
 
     return num_to_href
-# searchDream('바다')
+print(searchDream('바다'))
 
 # 꿈 - 입력대기 - 서치드림(입력값) -
 
