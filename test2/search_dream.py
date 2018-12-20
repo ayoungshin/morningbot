@@ -34,7 +34,7 @@ def searchDream(text):
     # href_to_title = dict(zip(href_list, titles))
 
     return result_list
-print(searchDream('바다'))
+# print(searchDream('바다'))
 
 # 꿈 - 입력대기 - 서치드림(입력값) -
 
