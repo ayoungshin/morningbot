@@ -15,5 +15,4 @@ def proverb():
     for word in soup.find_all('p', class_='lngkr'):
         words.append(word.get_text())
 
-    print(random.choice(words))
     return random.choice(words)
