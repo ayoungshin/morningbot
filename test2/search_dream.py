@@ -31,9 +31,12 @@ def searchDream(text):
     # num_to_title = dict(zip(title_nums, titles))
     # num_to_href = dict(zip(href_list, titles))
     # href_to_title = dict(zip(href_list, titles))
+    # longString = ''
+    # for i in result_list:
+    #     longString = longString + i + '\n'
 
     return result_list
-# print(searchDream('바다'))
+# print(searchDream('바다')) #실험용 코드
 
 # 꿈 - 입력대기 - 서치드림(입력값) -
 
